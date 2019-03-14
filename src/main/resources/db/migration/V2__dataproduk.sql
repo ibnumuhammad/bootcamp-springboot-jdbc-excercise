@@ -12,7 +12,7 @@ create table dataproduk(
     idproduk character varying not null primary key,
     namaproduk character varying not null,
     hargaproduk character varying not null,
-    jummlahproduk character varying
+    jumlahproduk character varying
 );
 
 insert into dataproduk(idproduk, namaproduk, hargaproduk,jumlahproduk) values
