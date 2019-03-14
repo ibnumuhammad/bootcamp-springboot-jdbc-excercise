@@ -11,10 +11,11 @@
 create table dataproduk(
     idproduk character varying not null primary key,
     namaproduk character varying not null,
-    hargaproduk character varying not null
+    hargaproduk character varying not null,
+    jummlahproduk character varying
 );
 
-insert into dataproduk(idproduk, namaproduk, hargaproduk) values
-('snack','wafer','1000'),
-('makanan','coklat','1000'),
-('minuman','sirop','1000');
+insert into dataproduk(idproduk, namaproduk, hargaproduk,jumlahproduk) values
+('snack','wafer','1000','10'),
+('makanan','coklat','1000','10'),
+('minuman','sirop','1000','10');

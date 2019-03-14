@@ -16,6 +16,7 @@ public class dataproduk {
     private String idproduk;
     private String namaproduk;
     private String hargaproduk;
+    private String jumlahproduk;
 
     /**
      * @return the idproduk
@@ -57,6 +58,20 @@ public class dataproduk {
      */
     public void setHargaproduk(String hargaproduk) {
         this.hargaproduk = hargaproduk;
+    }
+
+    /**
+     * @return the jumlahproduk
+     */
+    public String getJumlahproduk() {
+        return jumlahproduk;
+    }
+
+    /**
+     * @param jumlahproduk the jumlahproduk to set
+     */
+    public void setJumlahproduk(String jumlahproduk) {
+        this.jumlahproduk = jumlahproduk;
     }
     
     

@@ -6,9 +6,7 @@
 package com.tabeldata.bootcamp.belajarspringboot.model;
 
 /**
- *idtoko character varying not null primary key,
-    namatoko character varying not null,
-    alamattoko character varying not null
+ *
  * @author Home
  */
 public class datatoko {
@@ -17,6 +15,10 @@ public class datatoko {
     private String namatoko;
     private String alamattoko;
 
+    @Override
+    public String toString(){
+        return String.format("{idtoko: %s, namatoko: %s, alamattoko: %s", this.getIdtoko(), this.getNamatoko(), this.getAlamattoko());
+    }
     /**
      * @return the idtoko
      */
